@@ -3,11 +3,23 @@
   <groupId>com.love4code.sendmessage</groupId>
   <artifactId>camelexample</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  	<properties>
+	   <maven.compiler.source>1.8</maven.compiler.source>
+	   <maven.compiler.target>1.8</maven.compiler.target>
+	</properties>
+  
   <dependencies>
 	<dependency>
 	    <groupId>org.apache.camel</groupId>
 	    <artifactId>camel-core</artifactId>
 	    <version>3.3.0</version>
 	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.activemq</groupId>
+	    <artifactId>activemq-camel</artifactId>
+	    <version>5.15.13</version>
+	</dependency>
+		
   </dependencies>
 </project>
